@@ -56,9 +56,8 @@ const scroll_trigger_time_lines=(trigger,timeline)=>{
 
     // CONFIGURE THE ANIMATION FOR EACH ELEMENT TIMELINE
     
-    header_t.to(header,{filter:"brightness(1.2)",duration:0.1,delay:1})
-    .to(header,{filter:"brightness(0.1)",duration:0.1})
-    .to(header,{filter:"brightness(1.2)",duration:2})
+    header_t.to(header,{filter:"brightness(1.2)",duration:1.5,delay:1})
+
     // animate section 1
     section1_t.to(section1,{filter:"brightness(1.2)",duration:1.5})
     // animate section 2
