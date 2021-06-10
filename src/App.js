@@ -8,6 +8,7 @@ import {social_list} from './images_lists'
 import './style.sass'
 import './section.sass'
 import './header.sass'
+import { gsap, ScrollTrigger } from "gsap/all";
 
 
 class App extends React.Component {
@@ -20,6 +21,8 @@ class App extends React.Component {
 
   
   componentDidMount(){
+    gsap.core.globals("ScrollTrigger", ScrollTrigger);
+
 // call animation function
       animate_light_gsap()
 
