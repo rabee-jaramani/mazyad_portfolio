@@ -32,19 +32,19 @@ export default function Header() {
             <img className='sign' src={sign} alt='sign'></img>
             <div className='links-div'>
                 <div className='link link1'> 
-                    <i class="fab fa-google"></i>
+                    <i className="fab fa-google"></i>
                     <a rel='noreferrer' target='_blank' href='mailto: mazyadalj1190@gmail.com'> mazyadalj1190@gmail.com</a>
                 </div>
                 <div className='link link2'> 
-                    <i class="fab fa-instagram"></i>
+                    <i className="fab fa-instagram"></i>
                     <a rel='noreferrer' target='_blank' href='https://www.instagram.com/mazyad.alj/'> mazyad_photographey</a>
                 </div>
                 <div className='link link3'> 
-                    <i class="fab fa-facebook"></i>
+                    <i className="fab fa-facebook"></i>
                     <a rel='noreferrer' target='_blank' href='https://www.facebook.com/Mazyadphotographer'> mazyad aljaramani</a>
                 </div>
                 <div className='link link4'> 
-                    <i class="fab fa-whatsapp"></i>
+                    <i className="fab fa-whatsapp"></i>
                     <a rel='noreferrer' target='_blank' href='tel:+971 52 619 9709'> +971 52 619 9709</a>
                 </div>
             </div>

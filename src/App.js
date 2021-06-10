@@ -13,9 +13,9 @@ import './header.sass'
 class App extends React.Component {
   // List of sections id to use them for light animation and merg them with images realated to each section
   list=[
-    {sec_id:'section1',social_list},
-    {sec_id:'section2',social_list},
-    {sec_id:'section3',social_list}
+    {sec_id:'section1',key:1,social_list},
+    {sec_id:'section2',key:2,social_list},
+    {sec_id:'section3',key:3,social_list}
   ]
 
   
@@ -34,7 +34,7 @@ class App extends React.Component {
       <Header/>
       {this.list.map((elem)=>{
         return(
-      <Section sec_id={elem.sec_id} images_list={social_list} />
+      <Section sec_id={elem.sec_id} images_list={social_list} key={elem.key}/>
         )
       })}
     </div>
