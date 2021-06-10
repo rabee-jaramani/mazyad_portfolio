@@ -14,7 +14,7 @@ export const animate_header_elements=()=>{
     var link4=document.querySelector('.link4')
     var duration=0.2;
     header_elements_t
-    .from(image_div,{opacity:0,duration:duration,delay:1})
+    .from(image_div,{opacity:0,duration:duration,delay:2})
     .from(name,{opacity:0,duration:duration})
     .from(job,{opacity:0,duration:duration})
     .from(sign_div,{opacity:0,width:"800px",duration:duration+1})
