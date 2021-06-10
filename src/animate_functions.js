@@ -35,6 +35,7 @@ const scroll_trigger_time_lines=(trigger,timeline)=>{
       onLeaveBack: () => timeline.reverse(),
       onRefreshInit: ()=> timeline.reverse()
     })
+    gsap.core.globals("ScrollTrigger", ScrollTrigger);
   }
 
 
