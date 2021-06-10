@@ -21,10 +21,10 @@ class App extends React.Component {
   
   componentDidMount(){
 // call animation function
-      animate_light_gsap()
+      // animate_light_gsap()
 
 // Animate header elements
-      animate_header_elements()
+      // animate_header_elements()
 
   }
 
