@@ -23,7 +23,9 @@ class App extends React.Component {
   componentDidMount(){
     // there is an issue with scrolltrigger in production phase
     gsap.core.globals("ScrollTrigger", ScrollTrigger);
-
+    ScrollTrigger.config({
+      autoRefreshEvents: "visibilitychange,DOMContentLoaded,load" // notice "resize" isn't in the list
+    });
 // call animation function
       animate_light_gsap()
 
