@@ -10,7 +10,6 @@ export default function Header() {
     const image = useRef();
   
     useEffect(() => {
-  
       new hoverEffect({
         parent: image.current,
         intensity: 0.1,
