@@ -21,6 +21,7 @@ class App extends React.Component {
 
   
   componentDidMount(){
+    // there is an issue with scrolltrigger in production phase
     gsap.core.globals("ScrollTrigger", ScrollTrigger);
 
 // call animation function
