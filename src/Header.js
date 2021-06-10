@@ -29,7 +29,9 @@ export default function Header() {
             </div>
             <h1 className='name'>MAZYAD ALJARAMANI</h1>
             <h2 className='job'>PHOTOGRAPHER</h2>
-            <img className='sign' src={sign} alt='sign'></img>
+            <div className='sign-container'>
+              <img className='sign' src={sign} alt='sign'></img>
+            </div>
             <div className='links-div'>
                 <div className='link link1'> 
                     <i className="fab fa-google"></i>
