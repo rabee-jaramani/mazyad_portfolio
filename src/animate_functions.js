@@ -55,7 +55,7 @@ const scroll_trigger_time_lines=(trigger,timeline)=>{
     gsap.registerPlugin(ScrollTrigger)
 
     // CONFIGURE THE ANIMATION FOR EACH ELEMENT TIMELINE
-    header_t.to(header,{filter:"brightness(1.2)",duration:1.5,delay:1})
+    header_t.to(header,{filter:"brightness(1.2)",duration:1.5,delay:2})
 
     // animate section 1
     section1_t.to(section1,{filter:"brightness(1.2)",duration:1.5})
