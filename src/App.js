@@ -3,7 +3,7 @@ import React from "react";
 // import { ScrollTrigger } from "gsap/all";
 import Section from "./Section";
 import Header from "./Header";
-// import {animate_header_elements,animate_light_gsap} from './animate_functions'
+import {animate_header_elements,animate_light_gsap} from './animate_functions'
 import {social_list} from './images_lists'
 import './style.sass'
 import './section.sass'
@@ -21,10 +21,10 @@ class App extends React.Component {
   
   componentDidMount(){
 // call animation function
-      // animate_light_gsap()
+      animate_light_gsap()
 
 // Animate header elements
-      // animate_header_elements()
+      animate_header_elements()
 
   }
 
