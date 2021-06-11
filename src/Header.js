@@ -6,6 +6,7 @@ import img1 from './mazyad_images/mazyad1.jpg'
 import img2 from './mazyad_images/mazyad2.jpg'
 import dest from './mazyad_images/dest.jpg'
 
+
 export default function Header() {
     const image = useRef();
   

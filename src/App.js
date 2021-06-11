@@ -3,11 +3,13 @@ import React from "react";
 // import { ScrollTrigger } from "gsap/all";
 import Section from "./Section";
 import Header from "./Header";
+import Menu from './Menu'
 import {animate_header_elements,animate_light_gsap} from './animate_functions'
 import {sections_images_list} from './sections_images_list'
 import './style.sass'
 import './section.sass'
 import './header.sass'
+import './menu.sass'
 import { gsap, ScrollTrigger } from "gsap/all";
 
 
@@ -29,6 +31,7 @@ class App extends React.Component {
   render(){
   return (
     <div className="App">
+      <Menu/>
       <Header/>
       {sections_images_list.map((elem)=>{
         return(
