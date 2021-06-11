@@ -1,6 +1,7 @@
 import gsap from 'gsap/gsap-core'
 import React from 'react'
 import music from './music/music.mp3'
+import CV from './CV/MAZYAD_ALJARAMANI_2021.pdf'
 
 export default class Menu extends React.Component {
     constructor(props){
@@ -43,7 +44,7 @@ render(){
                 <i className="volume fas fa-volume-mute"></i>
             </div>
             <div className='download-cv'>
-                <p>CV</p>
+                <a href={CV} download>CV</a>
             </div>
         </div>
     )
