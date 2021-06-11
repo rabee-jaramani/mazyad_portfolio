@@ -40,6 +40,7 @@ class App extends React.Component {
         section_name={elem.section_name}
         key={elem.key}
         images={elem.images}
+        fullScreen_div={elem.fullScreen_div}
       />
         )
       })}

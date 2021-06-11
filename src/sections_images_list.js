@@ -9,6 +9,7 @@ export const sections_images_list=[
     {
         section_id:'section1',
         section_name:'section name 1',
+        fullScreen_div:'fullScreen_div1',
         key:1,
         images:[
             {image_id:'baby1',image_src:img1},
@@ -20,6 +21,7 @@ export const sections_images_list=[
     {
         section_id:'section2',
         section_name:'section name 2',
+        fullScreen_div:'fullScreen_div2',
         key:2,
         images:[
             {image_id:'fashion1',image_src:img1},
@@ -31,6 +33,7 @@ export const sections_images_list=[
     {
         section_id:'section3',
         section_name:'section name 3',
+        fullScreen_div:'fullScreen_div3',
         key:3,
         images:[
             {image_id:'wedding1',image_src:img1},

@@ -25,10 +25,10 @@ export default class Section extends React.Component {
         <div className='container'>
 
           {/* full screen image/// show image */}
-        <div className='image-div-full-screen ss hide-D'>
+        <div className={`image-div-full-screen ${ this.props.fullScreen_div }`}>
           <div
             className='close' 
-            onClick={()=>document.querySelector('.ss').style.display='none'}>
+            onClick={()=>document.querySelector('.'+this.props.fullScreen_div).style.display='none'}>
               close-X
           </div>
            <img src={this.state.image} alt={this.props.section_id}/>
@@ -44,9 +44,10 @@ export default class Section extends React.Component {
              alt={this.props.images[0].image_id}
              onClick={()=>{
                this.show_image(this.props.images[0].image_src)
-               document.querySelector('.ss').style.display='block'
+               document.querySelector('.'+this.props.fullScreen_div).style.display='block'
             }}
             />
+               
             <img 
              className='image-grid image-grid2'
              id={this.props.images[1].image_id}
@@ -54,7 +55,7 @@ export default class Section extends React.Component {
              alt={this.props.images[1].image_id}
              onClick={()=>{
               this.show_image(this.props.images[1].image_src)
-              document.querySelector('.ss').style.display='block'
+              document.querySelector('.'+this.props.fullScreen_div).style.display='block'
            }}
             />
             <img 
@@ -64,7 +65,7 @@ export default class Section extends React.Component {
              alt={this.props.images[2].image_id}
              onClick={()=>{
               this.show_image(this.props.images[2].image_src)
-              document.querySelector('.ss').style.display='block'
+              document.querySelector('.'+this.props.fullScreen_div).style.display='block'
            }}
             />
             <img 
@@ -74,7 +75,7 @@ export default class Section extends React.Component {
              alt={this.props.images[3].image_id}
              onClick={()=>{
               this.show_image(this.props.images[3].image_src)
-              document.querySelector('.ss').style.display='block'
+              document.querySelector('.'+this.props.fullScreen_div).style.display='block'
            }}
             />
           </div>
