@@ -59,10 +59,10 @@ const scroll_trigger_time_lines=(trigger,timeline)=>{
 
     // animate section 1 and its images
     section1_t.to(section1,{filter:"brightness(1.2)",duration:0.5})
-    .from('#baby1',{marginLeft:'-1500px',duration:0.2})
-    .from('#baby2',{marginLeft:'-1500px',duration:0.2})
-    .from('#baby3',{marginLeft:'-1500px',duration:0.2})
-    .from('#baby4',{marginLeft:'-1500px',duration:0.2})
+    .from('#baby1',{marginLeft:'-90vw',duration:0.2})
+    .from('#baby2',{marginLeft:'-90vw',duration:0.2})
+    .from('#baby3',{marginLeft:'-90vw',duration:0.2})
+    .from('#baby4',{marginLeft:'-90vw',duration:0.2})
     
     
     // animate section 2
