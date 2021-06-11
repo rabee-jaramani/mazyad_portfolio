@@ -4,7 +4,7 @@ import React from "react";
 import Section from "./Section";
 import Header from "./Header";
 import {animate_header_elements,animate_light_gsap} from './animate_functions'
-import {social_list} from './images_lists'
+import {sections_images_list} from './sections_images_list'
 import './style.sass'
 import './section.sass'
 import './header.sass'
@@ -12,12 +12,6 @@ import { gsap, ScrollTrigger } from "gsap/all";
 
 
 class App extends React.Component {
-  // List of sections id to use them for light animation and merg them with images realated to each section
-  list=[
-    {sec_id:'section1',key:1,social_list},
-    {sec_id:'section2',key:2,social_list},
-    {sec_id:'section3',key:3,social_list}
-  ]
 
   
   componentDidMount(){
@@ -36,9 +30,14 @@ class App extends React.Component {
   return (
     <div className="App">
       <Header/>
-      {this.list.map((elem)=>{
+      {sections_images_list.map((elem)=>{
         return(
-      <Section sec_id={elem.sec_id} images_list={social_list} key={elem.key}/>
+      <Section 
+        section_id={elem.section_id}
+        section_name={elem.section_name}
+        key={elem.key}
+        images={elem.images}
+      />
         )
       })}
     </div>

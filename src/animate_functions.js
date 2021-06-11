@@ -57,8 +57,14 @@ const scroll_trigger_time_lines=(trigger,timeline)=>{
     // CONFIGURE THE ANIMATION FOR EACH ELEMENT TIMELINE
     header_t.to(header,{filter:"brightness(1.2)",duration:1.5,delay:2})
 
-    // animate section 1
-    section1_t.to(section1,{filter:"brightness(1.2)",duration:1.5})
+    // animate section 1 and its images
+    section1_t.to(section1,{filter:"brightness(1.2)",duration:0.5})
+    .from('#baby1',{marginLeft:'-1500px',duration:0.2})
+    .from('#baby2',{marginLeft:'-1500px',duration:0.2})
+    .from('#baby3',{marginLeft:'-1500px',duration:0.2})
+    .from('#baby4',{marginLeft:'-1500px',duration:0.2})
+    
+    
     // animate section 2
     section2_t.to(section2,{filter:"brightness(1.2)",duration:1.5})
     // animate section 3
