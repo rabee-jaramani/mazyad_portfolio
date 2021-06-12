@@ -23,6 +23,7 @@ export default function Header() {
 
     return (
       <div className="header section" id='header'>
+        <img style={{opacity:0,pointerEvents:'none',position:'absolute'}} src={img2} alt='mazyad'/>
           <div className='container'>
             <div className='image-div'>
                <div className="image" id="imgContainer" ref={image}/>
