@@ -30,7 +30,7 @@ const scroll_trigger_time_lines=(trigger,timeline)=>{
     ScrollTrigger.create({
       trigger: trigger,
       start: "100px center",
-      markers: true,
+      markers: false,
       onEnter: () => timeline.play(),
       onLeaveBack: () => timeline.reverse(),
       onRefreshInit: ()=> timeline.reverse()
