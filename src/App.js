@@ -4,12 +4,14 @@ import React from "react";
 import Section from "./Section";
 import Header from "./Header";
 import Menu from './Menu'
+import Footer from "./Footer";
 import {animate_header_elements,animate_light_gsap} from './animate_functions'
 import {sections_images_list} from './sections_images_list'
 import './style.sass'
 import './section.sass'
 import './header.sass'
 import './menu.sass'
+import './footer.sass'
 import { gsap, ScrollTrigger } from "gsap/all";
 
 
@@ -44,6 +46,7 @@ class App extends React.Component {
       />
         )
       })}
+      <Footer/>
     </div>
   );
 }
