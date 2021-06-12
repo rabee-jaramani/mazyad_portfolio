@@ -29,7 +29,7 @@ export default class Section extends React.Component {
           <div
             className='close' 
             onClick={()=>document.querySelector('.'+this.props.fullScreen_div).style.display='none'}>
-              close-X
+              <i className="far fa-times-circle"></i>
           </div>
            <img src={this.state.image} alt={this.props.section_id}/>
         </div>
