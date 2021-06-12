@@ -65,55 +65,55 @@ const scroll_trigger_time_lines=(trigger,timeline)=>{
     gsap.registerPlugin(ScrollTrigger)
 
     // CONFIGURE THE ANIMATION FOR EACH ELEMENT TIMELINE
-    header_t.to(header,{filter:"brightness(1.2)",duration:1.5,delay:2})
+    header_t.from(header,{filter:"brightness(0.1)",duration:1.5,delay:2})
 
     // animate section 1 and its images
-    section1_t.to(section1,{filter:"brightness(1.2)",duration:0.2})
+    section1_t.from(section1,{filter:"brightness(0.1)",duration:0.2})
     .from('#model1',{marginLeft:'-90vw',duration:0.2})
     .from('#model2',{marginLeft:'-90vw',duration:0.2})
     .from('#model3',{marginLeft:'-90vw',duration:0.2})
     .from('#model4',{marginLeft:'-90vw',duration:0.2})
 
     // animate section 2
-    section2_t.to(section2,{filter:"brightness(1.2)",duration:0.2})
+    section2_t.from(section2,{filter:"brightness(0.1)",duration:0.2})
     .from('#maternity1',{marginLeft:'-90vw',duration:0.2})
     .from('#maternity2',{marginLeft:'-90vw',duration:0.2})
     .from('#maternity3',{marginLeft:'-90vw',duration:0.2})
     .from('#maternity4',{marginLeft:'-90vw',duration:0.2})
     
     // animate section 3
-    section3_t.to(section3,{filter:"brightness(1.2)",duration:.2})
+    section3_t.from(section3,{filter:"brightness(0.1)",duration:.2})
     .from('#freestyle1',{marginLeft:'-90vw',duration:0.2})
     .from('#freestyle2',{marginLeft:'-90vw',duration:0.2})
     .from('#freestyle3',{marginLeft:'-90vw',duration:0.2})
     .from('#freestyle4',{marginLeft:'-90vw',duration:0.2})
 
     // animate section 4
-    section4_t.to(section4,{filter:"brightness(1.2)",duration:.2})
+    section4_t.from(section4,{filter:"brightness(0.1)",duration:.2})
     .from('#baby1',{marginLeft:'-90vw',duration:0.2})
     .from('#baby2',{marginLeft:'-90vw',duration:0.2})
     .from('#baby3',{marginLeft:'-90vw',duration:0.2})
     .from('#baby4',{marginLeft:'-90vw',duration:0.2})
     // animate section 5
-    section5_t.to(section5,{filter:"brightness(1.2)",duration:.2})
+    section5_t.from(section5,{filter:"brightness(0.1)",duration:.2})
     .from('#cosmetic1',{marginLeft:'-90vw',duration:0.2})
     .from('#cosmetic2',{marginLeft:'-90vw',duration:0.2})
     .from('#cosmetic3',{marginLeft:'-90vw',duration:0.2})
     .from('#cosmetic4',{marginLeft:'-90vw',duration:0.2})
     // animate section 6
-    section6_t.to(section6,{filter:"brightness(1.2)",duration:.2})
+    section6_t.from(section6,{filter:"brightness(0.1)",duration:.2})
     .from('#poster1',{marginLeft:'-90vw',duration:0.2})
     .from('#poster2',{marginLeft:'-90vw',duration:0.2})
     .from('#poster3',{marginLeft:'-90vw',duration:0.2})
     .from('#poster4',{marginLeft:'-90vw',duration:0.2})  
     // animate section 7
-    section7_t.to(section7,{filter:"brightness(1.2)",duration:.2})
+    section7_t.from(section7,{filter:"brightness(0.1)",duration:.2})
     .from('#food1',{marginLeft:'-90vw',duration:0.2})
     .from('#food2',{marginLeft:'-90vw',duration:0.2})
     .from('#food3',{marginLeft:'-90vw',duration:0.2})
     .from('#food4',{marginLeft:'-90vw',duration:0.2})  
     // animate section 8
-    section8_t.to(section8,{filter:"brightness(1.2)",duration:.2})
+    section8_t.from(section8,{filter:"brightness(0.1)",duration:.2})
     .from('#drink1',{marginLeft:'-90vw',duration:0.2})
     .from('#drink2',{marginLeft:'-90vw',duration:0.2})
     .from('#drink3',{marginLeft:'-90vw',duration:0.2})

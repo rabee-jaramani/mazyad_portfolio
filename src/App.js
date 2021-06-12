@@ -23,7 +23,11 @@ class App extends React.Component {
     gsap.core.globals("ScrollTrigger", ScrollTrigger);
     
 // call animation function
-      animate_light_gsap()
+console.log("INER width "+window.innerWidth);
+if(window.innerWidth>400){
+  animate_light_gsap()
+}
+     
 
 // Animate header elements
       animate_header_elements()
