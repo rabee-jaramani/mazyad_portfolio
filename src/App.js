@@ -12,6 +12,7 @@ import './section.sass'
 import './header.sass'
 import './menu.sass'
 import './footer.sass'
+import './image.sass'
 import { gsap, ScrollTrigger } from "gsap/all";
 
 
@@ -24,14 +25,10 @@ class App extends React.Component {
     
 // call animation function
 console.log("INER width "+window.innerWidth);
-if(window.innerWidth>450){
-  animate_light_gsap()
-}
-     
+  animate_light_gsap()     
 
 // Animate header elements
       animate_header_elements()
-
   }
 
   render(){

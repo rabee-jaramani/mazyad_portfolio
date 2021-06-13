@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <section className='footer section'>
+        <div className='footer'>
             
-                <div className='container'>
-                    <h1>THANK YOU</h1>
+                <div className='footer-container'>
+                    <h1 className='thankyou'>THANK YOU</h1>
                 </div>
-        </section>
+        </div>
     )
 }

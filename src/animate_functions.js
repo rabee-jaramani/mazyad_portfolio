@@ -14,7 +14,7 @@ export const animate_header_elements=()=>{
     var link4=document.querySelector('.link4')
     var duration=0.2;
     header_elements_t
-    .from(image_div,{opacity:0,duration:duration,delay:2})
+    .from(image_div,{opacity:0,duration:duration,delay:3})
     .from(name,{opacity:0,duration:duration})
     .from(job,{opacity:0,duration:duration})
     .from(sign_div,{opacity:0,width:"800px",duration:duration+1})
@@ -30,7 +30,7 @@ const scroll_trigger_time_lines=(trigger,timeline)=>{
     ScrollTrigger.create({
       trigger: trigger,
       start: "100px center",
-      markers: false,
+      markers: true,
       onEnter: () => timeline.play(),
       onLeaveBack: () => timeline.reverse(),
       onRefreshInit: ()=> timeline.reverse()
@@ -63,61 +63,34 @@ const scroll_trigger_time_lines=(trigger,timeline)=>{
 
     // define a scroll trigger
     gsap.registerPlugin(ScrollTrigger)
-
+    var duration=1;
     // CONFIGURE THE ANIMATION FOR EACH ELEMENT TIMELINE
-    header_t.from(header,{filter:"brightness(0.1)",duration:1.5,delay:2})
+    header_t.from(header,{filter:"brightness(0.1)",duration:duration,delay:2})
 
     // animate section 1 and its images
-    section1_t.from(section1,{filter:"brightness(0.1)",duration:0.2})
-    .from('#model1',{marginLeft:'-90vw',duration:0.2})
-    .from('#model2',{marginLeft:'-90vw',duration:0.2})
-    .from('#model3',{marginLeft:'-90vw',duration:0.2})
-    .from('#model4',{marginLeft:'-90vw',duration:0.2})
+    section1_t.from(section1,{filter:"brightness(0.1)",duration:duration})
 
     // animate section 2
-    section2_t.from(section2,{filter:"brightness(0.1)",duration:0.2})
-    .from('#maternity1',{marginLeft:'-90vw',duration:0.2})
-    .from('#maternity2',{marginLeft:'-90vw',duration:0.2})
-    .from('#maternity3',{marginLeft:'-90vw',duration:0.2})
-    .from('#maternity4',{marginLeft:'-90vw',duration:0.2})
+    section2_t.from(section2,{filter:"brightness(0.1)",duration:duration})
+   
     
     // animate section 3
-    section3_t.from(section3,{filter:"brightness(0.1)",duration:.2})
-    .from('#freestyle1',{marginLeft:'-90vw',duration:0.2})
-    .from('#freestyle2',{marginLeft:'-90vw',duration:0.2})
-    .from('#freestyle3',{marginLeft:'-90vw',duration:0.2})
-    .from('#freestyle4',{marginLeft:'-90vw',duration:0.2})
+    section3_t.from(section3,{filter:"brightness(0.1)",duration:duration})
+    
 
     // animate section 4
-    section4_t.from(section4,{filter:"brightness(0.1)",duration:.2})
-    .from('#baby1',{marginLeft:'-90vw',duration:0.2})
-    .from('#baby2',{marginLeft:'-90vw',duration:0.2})
-    .from('#baby3',{marginLeft:'-90vw',duration:0.2})
-    .from('#baby4',{marginLeft:'-90vw',duration:0.2})
+    section4_t.from(section4,{filter:"brightness(0.1)",duration:duration})
     // animate section 5
-    section5_t.from(section5,{filter:"brightness(0.1)",duration:.2})
-    .from('#cosmetic1',{marginLeft:'-90vw',duration:0.2})
-    .from('#cosmetic2',{marginLeft:'-90vw',duration:0.2})
-    .from('#cosmetic3',{marginLeft:'-90vw',duration:0.2})
-    .from('#cosmetic4',{marginLeft:'-90vw',duration:0.2})
+    section5_t.from(section5,{filter:"brightness(0.1)",duration:duration})
+   
     // animate section 6
-    section6_t.from(section6,{filter:"brightness(0.1)",duration:.2})
-    .from('#poster1',{marginLeft:'-90vw',duration:0.2})
-    .from('#poster2',{marginLeft:'-90vw',duration:0.2})
-    .from('#poster3',{marginLeft:'-90vw',duration:0.2})
-    .from('#poster4',{marginLeft:'-90vw',duration:0.2})  
+    section6_t.from(section6,{filter:"brightness(0.1)",duration:duration})
+   
     // animate section 7
-    section7_t.from(section7,{filter:"brightness(0.1)",duration:.2})
-    .from('#food1',{marginLeft:'-90vw',duration:0.2})
-    .from('#food2',{marginLeft:'-90vw',duration:0.2})
-    .from('#food3',{marginLeft:'-90vw',duration:0.2})
-    .from('#food4',{marginLeft:'-90vw',duration:0.2})  
+    section7_t.from(section7,{filter:"brightness(0.1)",duration:duration})  
     // animate section 8
-    section8_t.from(section8,{filter:"brightness(0.1)",duration:.2})
-    .from('#drink1',{marginLeft:'-90vw',duration:0.2})
-    .from('#drink2',{marginLeft:'-90vw',duration:0.2})
-    .from('#drink3',{marginLeft:'-90vw',duration:0.2})
-    .from('#drink4',{marginLeft:'-90vw',duration:0.2})  
+    section8_t.from(section8,{filter:"brightness(0.1)",duration:duration})
+  
     // CALL SCROLL TRIGGER FUNCTION FOR EACH ELEMENT
     scroll_trigger_time_lines(section1,section1_t);
     scroll_trigger_time_lines(section2,section2_t);
