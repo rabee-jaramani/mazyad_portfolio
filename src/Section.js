@@ -4,14 +4,18 @@ import Image from './Image'
 export default class Section extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {image_selected: this.props.images[0].image_src};
+    this.state = {
+      image_selected: this.props.images[0].image_src,
+      image_info:this.props.images[0].image_info
+    };
     
   }
 
-   show_image(image){
-     console.log(image)
+   show_image(image, info){
+     console.log(image,info)
       this.setState({
         image_selected:image,
+        image_info:info,
         element:'.image-div-full-screen'
       })    
     }
@@ -25,6 +29,11 @@ export default class Section extends React.Component {
          
         <div className='container'>
         <div className='section-title'>{this.props.section_name}</div>
+        <div className='info-div'>
+          <p className='info-p'>{this.state.image_info}</p>
+        </div>
+
+
           {/* full screen image/// show image */}
         <div className={`image-div-full-screen ${ this.props.fullScreen_div }`}>
            <img src={this.state.image_selected} alt={this.props.section_id}/>
@@ -39,6 +48,7 @@ export default class Section extends React.Component {
                         key={elem.image_id}
                         src={elem.image_src}
                         alt={elem.image_id}
+                        info={elem.image_info}
                         fullScreen_div={this.props.fullScreen_div}
                         show_image={this.show_image.bind(this)}
                       />

@@ -43,10 +43,10 @@ export const sections_images_list=[
         fullScreen_div:'fullScreen_div1',
         key:1,
         images:[
-            {image_id:'model1',image_src:model1},
-            {image_id:'model2',image_src:model2},
-            {image_id:'model3',image_src:model3},
-            {image_id:'model4',image_src:model4}
+            {image_id:'model1',image_src:model1,image_info:'test image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'model2',image_src:model2,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'model3',image_src:model3,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'model4',image_src:model4,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'}
         ]
     },
     {
@@ -55,10 +55,10 @@ export const sections_images_list=[
         fullScreen_div:'fullScreen_div2',
         key:2,
         images:[
-            {image_id:'maternity1',image_src:maternity1},
-            {image_id:'maternity2',image_src:maternity2},
-            {image_id:'maternity3',image_src:maternity3},
-            {image_id:'maternity4',image_src:maternity4}
+            {image_id:'maternity1',image_src:maternity1,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'maternity2',image_src:maternity2,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'maternity3',image_src:maternity3,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'maternity4',image_src:maternity4,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'}
         ]
     },
     {
@@ -67,10 +67,10 @@ export const sections_images_list=[
         fullScreen_div:'fullScreen_div3',
         key:3,
         images:[
-            {image_id:'freestyle1',image_src:freestyle1},
-            {image_id:'freestyle2',image_src:freestyle2},
-            {image_id:'freestyle3',image_src:freestyle3},
-            {image_id:'freestyle4',image_src:freestyle4}
+            {image_id:'freestyle1',image_src:freestyle1,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'freestyle2',image_src:freestyle2,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'freestyle3',image_src:freestyle3,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'freestyle4',image_src:freestyle4,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'}
         ]
     },
     {
@@ -79,10 +79,10 @@ export const sections_images_list=[
         fullScreen_div:'fullScreen_div4',
         key:4,
         images:[
-            {image_id:'baby1',image_src:baby1},
-            {image_id:'baby2',image_src:baby2},
-            {image_id:'baby3',image_src:baby3},
-            {image_id:'baby4',image_src:baby4}
+            {image_id:'baby1',image_src:baby1,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'baby2',image_src:baby2,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'baby3',image_src:baby3,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'baby4',image_src:baby4,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'}
         ]
     },
     {
@@ -91,10 +91,10 @@ export const sections_images_list=[
         fullScreen_div:'fullScreen_div5',
         key:5,
         images:[
-            {image_id:'cosmetic1',image_src:cosmetic1},
-            {image_id:'cosmetic2',image_src:cosmetic2},
-            {image_id:'cosmetic3',image_src:cosmetic3},
-            {image_id:'cosmetic4',image_src:cosmetic4}
+            {image_id:'cosmetic1',image_src:cosmetic1,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'cosmetic2',image_src:cosmetic2,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'cosmetic3',image_src:cosmetic3,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'cosmetic4',image_src:cosmetic4,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'}
         ]
     },
     {
@@ -103,10 +103,10 @@ export const sections_images_list=[
         fullScreen_div:'fullScreen_div6',
         key:6,
         images:[
-            {image_id:'poster1',image_src:poster1},
-            {image_id:'poster2',image_src:poster2},
-            {image_id:'poster3',image_src:poster3},
-            {image_id:'poster4',image_src:poster4}
+            {image_id:'poster1',image_src:poster1,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'poster2',image_src:poster2,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'poster3',image_src:poster3,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'poster4',image_src:poster4,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'}
         ]
     },
     {
@@ -115,10 +115,10 @@ export const sections_images_list=[
         fullScreen_div:'fullScreen_div7',
         key:7,
         images:[
-            {image_id:'food1',image_src:food1},
-            {image_id:'food2',image_src:food2},
-            {image_id:'food3',image_src:food3},
-            {image_id:'food4',image_src:food4}
+            {image_id:'food1',image_src:food1,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'food2',image_src:food2,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'food3',image_src:food3,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'food4',image_src:food4,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'}
         ]
     },
     {
@@ -127,10 +127,10 @@ export const sections_images_list=[
         fullScreen_div:'fullScreen_div8',
         key:8,
         images:[
-            {image_id:'drink1',image_src:drink1},
-            {image_id:'drink2',image_src:drink2},
-            {image_id:'drink3',image_src:drink3},
-            {image_id:'drink4',image_src:drink4}
+            {image_id:'drink1',image_src:drink1,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'drink2',image_src:drink2,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'drink3',image_src:drink3,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'},
+            {image_id:'drink4',image_src:drink4,image_info:'this image is taken by mazyad aljaramani with type of the camera and the place and some info'}
         ]
     },
   

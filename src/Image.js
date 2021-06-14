@@ -11,7 +11,7 @@ export default class Image extends React.Component {
              src={this.props.src} 
              alt={this.props.id}
              onClick={ ()=>{
-                this.props.show_image(this.props.src)
+                this.props.show_image(this.props.src,this.props.info)
                 document.querySelector('.'+this.props.fullScreen_div).style.display='block'
              }}
             />
