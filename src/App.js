@@ -25,8 +25,9 @@ class App extends React.Component {
     
 // call animation function
 console.log("INER width "+window.innerWidth);
+if(window.innerWidth>400){
   animate_light_gsap()     
-
+}
 // Animate header elements
       animate_header_elements()
   }
