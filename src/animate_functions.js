@@ -92,6 +92,7 @@ const scroll_trigger_time_lines=(trigger,timeline)=>{
     section8_t.from(section8,{filter:"brightness(0.1)",duration:duration})
   
     // CALL SCROLL TRIGGER FUNCTION FOR EACH ELEMENT
+    if(!/Edge/.test(navigator.userAgent)){
     scroll_trigger_time_lines(section1,section1_t);
     scroll_trigger_time_lines(section2,section2_t);
     scroll_trigger_time_lines(section3,section3_t);
@@ -100,6 +101,6 @@ const scroll_trigger_time_lines=(trigger,timeline)=>{
     scroll_trigger_time_lines(section6,section6_t);
     scroll_trigger_time_lines(section7,section7_t);
     scroll_trigger_time_lines(section8,section8_t);
-
+    }
   }
     
