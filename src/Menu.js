@@ -24,10 +24,8 @@ export default class Menu extends React.Component {
                 musin_on:true
             })
         }
-       
         document.querySelector('.volume').classList.toggle('fa-volume-up')
         document.querySelector('.volume').classList.toggle('fa-volume-mute')
-
     }
 componentDidMount(){
     gsap.from('.audio',{marginLeft:'-100vw',delay:1})
@@ -37,7 +35,7 @@ componentDidMount(){
 render(){
     return (
         <div className='menu'>
-            <audio className="audio-element" autoPlay={true} muted={false}>
+            <audio className="audio-element" autoPlay={false} muted={false}>
                 <source src={music}></source>
             </audio>
             <div className='audio' onClick={()=>this.play_sound()}>

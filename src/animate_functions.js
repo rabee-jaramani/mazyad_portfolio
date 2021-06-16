@@ -31,7 +31,7 @@ const scroll_trigger_time_lines=(trigger,timeline)=>{
       trigger: trigger,
       start: "100px center",
       markers: false,
-      onEnter: () => timeline.play(),
+      onEnter: () => {timeline.play(); console.log("entered")},
       onLeaveBack: () => timeline.reverse(),
       onRefreshInit: ()=> timeline.reverse()
     })
