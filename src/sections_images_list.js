@@ -168,9 +168,9 @@ export const sections_images_list=[
         images:[
             {image_id:'war1',image_src:war1,image_info:section9_info},
             {image_id:'war2',image_src:war2,image_info:section9_info},
-            {image_id:'war3',image_src:war3,image_info:section9_info},
+            {image_id:'war3',image_src:war3,image_info:section9_info,image_type:'portrait'},
             {image_id:'war4',image_src:war4,image_info:section9_info},
-            {image_id:'war5',image_src:war5,image_info:section9_info}
+            {image_id:'war5',image_src:war5,image_info:section9_info,image_type:'portrait'}
 
         ]
     },
@@ -178,7 +178,7 @@ export const sections_images_list=[
         section_id:'section10',
         section_name:'CARS',
         fullScreen_div:'fullScreen_div9',
-        key:9,
+        key:10,
         images:[
             {image_id:'car1',image_src:car1,image_info:section10_info},
             {image_id:'car2',image_src:car2,image_info:section10_info},

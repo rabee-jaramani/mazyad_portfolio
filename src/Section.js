@@ -11,14 +11,20 @@ export default class Section extends React.Component {
     
   }
 
-   show_image(image, info){
-     console.log(image,info)
-      this.setState({
-        image_selected:image,
-        image_info:info,
-        element:'.image-div-full-screen'
-      })    
+   show_image(image, info,type){
+     console.log(this.props.fullScreen_div)
+     if(type!=='portrait'){
+      document.querySelector(`.${this.props.fullScreen_div}`).classList.remove('portrait')   
     }
+    else{
+          document.querySelector(`.${this.props.fullScreen_div}`).classList.add('portrait')
+    }
+    this.setState({
+      image_selected:image,
+      image_info:info,
+      element:'.image-div-full-screen'
+    }) 
+  }
    
     componentDidMount(){
       
@@ -50,6 +56,7 @@ export default class Section extends React.Component {
                         alt={elem.image_id}
                         info={elem.image_info}
                         fullScreen_div={this.props.fullScreen_div}
+                        image_type={elem.image_type}
                         show_image={this.show_image.bind(this)}
                       />
               })
